@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;  
+  font-family: Century Gothic;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../100.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 45px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration:none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000; 
+}
+.logo img{
+    float: left;
+    width: 250px;
+    height: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    text-align: center;
+    color: #fff;
+    font-size: 3.5rem;
+}
+.buttons{
+    position: absolute;
+    top: 56%;
+    left: 40%;
+  }
+
+.buttons button{
+  margin: 6px 6px;
+  border-radius: 5px;
+
+}
+
+/*                              HOTELS PAGE                                 */
+
+
+
+.hotels{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../19.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+.hotels_title{
+  position: absolute;
+  top: 45%;
+  right: 58%;
+  width: 35%;
+  text-align: left;
+  color: #fff;
+  font-size: 7rem;
+}
+.hotels_title p{
+  font-size: 1rem;
+  margin-bottom: 0%;
+}
+.hotels_title .btn{
+  margin-top: 0%;
+
+}
+.container-fluid{
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  width: 45%;
+}
